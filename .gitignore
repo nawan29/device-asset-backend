@@ -1,0 +1,25 @@
+# 1. 编译产生的字节码目录
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# 2. IDEA 编辑器本地配置
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# 3. Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# 4. 日志文件
+*.log
+logs/
+
+# 5. 操作系统产生的垃圾文件
+.DS_Store
+Thumbs.db
+
+# 6. 本地环境配置文件
